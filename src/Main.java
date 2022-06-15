@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(a + " " + "+" + " " + b + " "+ "+" + " " + c + " " + "+"+ " " + d + " " + "=" + " " + sum(a,b,c,d));
         System.out.println(a + " " +"*" + " " + b + " " + "*"  + " " + d + " " + "=" + " " + multiply(a,b,d));
-        System.out.println(b + " " +"/" + " " + d + " " + "=" + " " + devide(d,b));
+        System.out.println(b + " " +"/" + " " + d + " " + "=" + " " + divide(d,b));
         System.out.println(b + " " + "-" + " " + c + " " + "="  +   " " + subtract(c,b));
 
 
@@ -34,7 +34,7 @@ public class Main {
         return total;
     }
 
-    public static Double devide(double a, double b){
+    public static Double divide(double a, double b){
 
         Double total = b/a;
 
