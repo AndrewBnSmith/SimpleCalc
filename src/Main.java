@@ -14,10 +14,10 @@ public class Main {
         System.out.println("Please enter the fourth value");
         d = scan.nextInt();
 
-        System.out.println(a + "+" + b + "+" + c + "+"+ d + " "+ " " + "= " + sum(a,b,c,d));
-        System.out.println(a + "x" + b + "x" + d + "= " + multiply(a,b,d));
-        System.out.println(b + "/" + d + "= " + devide(d,b));
-        System.out.println(b + "-" + c + "= " + subtract(c,b));
+        System.out.println(a + " " + "+" + " " + b + " "+ "+" + " " + c + " " + "+"+ " " + d + " " + "=" + " " + sum(a,b,c,d));
+        System.out.println(a + " " +"*" + " " + b + " " + "*"  + " " + d + " " + "=" + " " + multiply(a,b,d));
+        System.out.println(b + " " +"/" + " " + d + " " + "=" + " " + devide(d,b));
+        System.out.println(b + " " + "-" + " " + c + " " + "="  +   " " + subtract(c,b));
 
 
 
